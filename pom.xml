@@ -8,7 +8,7 @@
         <version>3.0.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>home.exercise</groupId>
+    <groupId>ru.skypro</groupId>
     <artifactId>SkyPro_exercises_course4_hw2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SkyPro_exercises_course4_hw2</name>
@@ -27,6 +27,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
