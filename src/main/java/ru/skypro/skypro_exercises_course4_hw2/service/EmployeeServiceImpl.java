@@ -13,7 +13,6 @@ public class EmployeeServiceImpl implements EmployeeService {
     private final EmployeeRepository employeeRepository;
 
     @Override
-//    @Profile("test-y")
     public int getEmployeeCount() {
         return employeeRepository.getEmployeeCount();
     }

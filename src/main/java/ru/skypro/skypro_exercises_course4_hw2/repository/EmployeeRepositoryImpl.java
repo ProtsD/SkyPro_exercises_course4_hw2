@@ -8,7 +8,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Repository
-@Getter
 public class EmployeeRepositoryImpl implements EmployeeRepository {
     private final List<Employee> employeeList = List.of(
             new Employee("Катя", 90_000),
